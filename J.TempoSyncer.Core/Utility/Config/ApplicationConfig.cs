@@ -13,12 +13,12 @@ public class ApplicationConfig
     private static readonly JsonSerializerOptions _jsonSerializerOptions = new() { WriteIndented = true };
 
     /// <summary>
-    /// Gets or sets the file path to the FFMPEG executable.
+    /// Gets or sets the file path to the FFmpeg executable.
     /// </summary>
-    public string FilePathFFMPEG { get; set; } = string.Empty;
+    public string FilePathFFmpeg { get; set; } = string.Empty;
 
     /// <summary>
-    /// Gets or sets the file path to the FFProbe executable.
+    /// Gets or sets the file path to the FFprobe executable.
     /// </summary>
     public string FilePathFFProbe { get; set; } = string.Empty;
 

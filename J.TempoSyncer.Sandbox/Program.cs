@@ -2,7 +2,7 @@
 
 ApplicationConfig applicationConfig = new()
 {
-    FilePathFFMPEG = "C:/Data/Utilities/Video/FFMPEG-v8.0/bin/ffmpeg.exe",
+    FilePathFFmpeg = "C:/Data/Utilities/Video/FFMPEG-v8.0/bin/ffmpeg.exe",
     FilePathFFProbe = "C:/Data/Utilities/Video/FFMPEG-v8.0/bin/ffprobe.exe",
 };
 
