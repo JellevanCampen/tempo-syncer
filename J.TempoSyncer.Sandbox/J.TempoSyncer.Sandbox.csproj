@@ -12,10 +12,18 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Autofac" Version="8.4.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\J.TempoSyncer.Core\J.TempoSyncer.Core.csproj" />
+    <ProjectReference Include="..\J.TempoSyncer.Infrastructure.FFMPEG\J.TempoSyncer.Infrastructure.FFMPEG.csproj" />
+    <ProjectReference Include="..\J.TempoSyncer.Infrastructure.TagLibMetadata\J.TempoSyncer.Infrastructure.TagLibMetadata.csproj" />
+    <ProjectReference Include="..\J.TempoSyncer.Service\J.TempoSyncer.Service.csproj" />
   </ItemGroup>
 
 </Project>

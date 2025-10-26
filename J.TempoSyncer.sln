@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.TempoSyncer.Sandbox", "J.TempoSyncer.Sandbox\J.TempoSyncer.Sandbox.csproj", "{7DE0A5DA-4E6B-46D7-AF38-C66351738627}"
@@ -19,6 +21,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.TempoSyncer.Presentation.WPF", "J.TempoSyncer.Presentation.WPF\J.TempoSyncer.Presentation.WPF.csproj", "{9EE9D3DF-4BB5-4674-9511-6811363BDE93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.TempoSyncer.Infrastructure.TagLibMetadata", "J.TempoSyncer.Infrastructure.TagLibMetadata\J.TempoSyncer.Infrastructure.TagLibMetadata.csproj", "{817E9CFE-2040-41EE-BEA5-4B6756814BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "J.TempoSyncer.Infrastructure.Autofac", "J.TempoSyncer.Infrastructure.Autofac\J.TempoSyncer.Infrastructure.Autofac.csproj", "{C82F9404-3410-4B55-B6B1-5A42FACC385F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +54,10 @@ Global
 		{817E9CFE-2040-41EE-BEA5-4B6756814BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{817E9CFE-2040-41EE-BEA5-4B6756814BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{817E9CFE-2040-41EE-BEA5-4B6756814BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82F9404-3410-4B55-B6B1-5A42FACC385F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82F9404-3410-4B55-B6B1-5A42FACC385F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82F9404-3410-4B55-B6B1-5A42FACC385F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82F9404-3410-4B55-B6B1-5A42FACC385F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
